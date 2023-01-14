@@ -7,23 +7,40 @@ h1 {
     color: blanchedalmond;
     text-align: center;
     font-weight: 800;
+    font-size: 70px;
+    margin: 2em;
+    text-shadow: 1pt 1pt;
+    box-shadow: 2px 2px;
+}
+
+h1:hover {
+    transform: skewY(3deg);
+    transform: skewX(4deg);
 }
 
 div {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     color: blanchedalmond;
+    text-align: center;
 }
 
 ul,
 li {
     padding-bottom: 18px;
-    list-style-type: square;;
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 0;
 }
 
 .mac,
 .cookie,
 .fish {
     color: sandybrown;
-    
+}
+
+a:hover {
+    font-size: 30px;
+    font-weight: 800;
+    background-color: honeydew;
 }
