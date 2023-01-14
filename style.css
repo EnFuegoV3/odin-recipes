@@ -2,18 +2,17 @@ body {
     background-color: darkslategray;
     font-family: "Courier new", Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 5em;
+    text-align: center;
 }
 
 h1 {
     color: blanchedalmond;
-    text-align: center;
     font-weight: 800;
     font-size: 70px;
-    margin: 0 auto;
     text-shadow: 1pt 1pt;
     box-shadow: 1px 1px;
-    width: 530px;
-    display: table;
+    display: inline-block;
+   
 }
 
 h1:hover {
@@ -22,17 +21,12 @@ h1:hover {
 }
 
 div {
-    font-size: 25px;
-    font-weight: 600;
-    color: blanchedalmond;
-    text-align: center;
     padding-top: 3em;
-    
 }
 
 ul,
 li {
-    padding-bottom: 18px;
+    padding-bottom: 22px;
     list-style-type: none;
     list-style-position: inside;
 }
@@ -41,6 +35,8 @@ li {
 .cookie,
 .fish {
     color: sandybrown;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 a:hover {
