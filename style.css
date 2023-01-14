@@ -1,0 +1,27 @@
+body {
+    background-color: darkslategray;
+    font-family: "Courier new", Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: blanchedalmond;
+    text-align: center;
+    font-weight: 800;
+}
+
+nav {
+    font-size: 30px;
+    font-weight: 600;
+    color: blanchedalmond;
+}
+
+li {
+    padding: 10px;
+}
+
+.mac,
+.cookie,
+.fish {
+    color: sandybrown;
+    
+}
