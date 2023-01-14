@@ -18,6 +18,7 @@ h1 {
 h1:hover {
     transform: skewY(3deg);
     transform: skewX(4deg);
+    opacity: .88;
 }
 
 div {
